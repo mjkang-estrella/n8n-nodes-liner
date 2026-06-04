@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-liner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use Liner search, quick answer, AI Search, and Deep Research APIs in n8n workflows.",
   "license": "MIT",
   "homepage": "https://github.com/mjkang-estrella/n8n-nodes-liner",
@@ -12,7 +12,9 @@
     "search-api",
     "deep-research"
   ],
-  "author": { "name": "Liner" },
+  "author": {
+    "name": "Liner"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mjkang-estrella/n8n-nodes-liner.git"
@@ -26,12 +28,18 @@
     "release": "n8n-node release",
     "prepublishOnly": "n8n-node prerelease"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "n8n": {
     "n8nNodesApiVersion": 1,
     "strict": true,
-    "credentials": ["dist/credentials/LinerApi.credentials.js"],
-    "nodes": ["dist/nodes/Liner/Liner.node.js"]
+    "credentials": [
+      "dist/credentials/LinerApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Liner/Liner.node.js"
+    ]
   },
   "devDependencies": {
     "@n8n/node-cli": "0.33.0",
@@ -40,5 +48,7 @@
     "release-it": "^19.0.4",
     "typescript": "5.9.2"
   },
-  "peerDependencies": { "n8n-workflow": "*" }
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
 }
