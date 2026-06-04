@@ -13,7 +13,9 @@
 		"deep-research"
 	],
 	"author": {
-		"name": "Liner"
+		"name": "Liner",
+		"email": "mj.kang@hey.com",
+		"url": "https://liner.com"
 	},
 	"repository": {
 		"type": "git",
