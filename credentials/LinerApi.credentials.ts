@@ -36,7 +36,7 @@ export class LinerApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 		request: {
-			baseURL: 'https://api.liner.com/v1',
+			baseURL: 'https://platform.liner.com/api/v1',
 			url: '/health',
 			method: 'GET',
 		},

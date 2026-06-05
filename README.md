@@ -62,7 +62,7 @@ You need a Liner API key.
 3. In n8n, create a new **Liner API** credential.
 4. Paste the API key into the **API Key** field.
 
-The credential sends your key as the `x-api-key` header. The node calls Liner API endpoints at `https://platform.liner.com/api/v1`.
+The credential sends your key as the `x-api-key` header. Credential tests and node actions call Liner API endpoints at `https://platform.liner.com/api/v1`.
 
 ## Usage
 

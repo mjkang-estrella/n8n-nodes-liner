@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-liner",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "Use Liner search, quick answer, AI Search, and Deep Research APIs in n8n workflows.",
 	"license": "MIT",
 	"homepage": "https://github.com/mjkang-estrella/n8n-nodes-liner",
